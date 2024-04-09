@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { DemoService } from '@nx-monorepo-demo/feature-services';
 import { NxWelcomeComponent } from './nx-welcome.component';
 
 @Component({
@@ -10,5 +11,9 @@ import { NxWelcomeComponent } from './nx-welcome.component';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'project-a';
+  demoMessage = this.demoService.getDemoMessage();
+
+  constructor(
+    private readonly demoService: DemoService
+  ) { }
 }
