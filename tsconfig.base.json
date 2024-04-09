@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@nx-monorepo-demo/feature-components": [
+        "libs/feature-components/src/index.ts"
+      ],
       "@nx-monorepo-demo/feature-services": [
         "libs/feature-services/src/index.ts"
       ]

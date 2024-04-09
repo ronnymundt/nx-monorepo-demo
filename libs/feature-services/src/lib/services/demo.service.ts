@@ -6,9 +6,9 @@ import { Injectable } from '@angular/core';
 export class DemoService {
 
   /**
-   * Get a demo message
+   * Get a message text.
    */
-  getDemoMessage(): string {
-    return 'This is a demo message from the demo service in the feature-services library.';
+  getMessage(): string {
+    return 'This is a message from the demo service in the feature-services library.';
   }
 }

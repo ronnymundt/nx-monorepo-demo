@@ -1,17 +1,16 @@
 import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import { HelloComponent } from '@nx-monorepo-demo/feature-components';
 import { DemoService } from '@nx-monorepo-demo/feature-services';
-import { NxWelcomeComponent } from './nx-welcome.component';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
+  imports: [HelloComponent],
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  demoMessage = this.demoService.getDemoMessage();
+  demoMessage = `Hello from Project-A: ${this.demoService.getMessage()}`;
 
   constructor(
     private readonly demoService: DemoService

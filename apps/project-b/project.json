@@ -20,7 +20,10 @@
           "apps/project-b/src/favicon.ico",
           "apps/project-b/src/assets"
         ],
-        "styles": ["apps/project-b/src/styles.scss"],
+        "styles": [
+          "node_modules/bootstrap/dist/css/bootstrap.min.css",
+          "apps/project-b/src/styles.scss"
+        ],
         "scripts": []
       },
       "configurations": {
