@@ -1,18 +1,14 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { HelloComponent } from '@nx-monorepo-demo/feature-components';
 import { DemoService } from '@nx-monorepo-demo/feature-services';
 
 @Component({
-  standalone: true,
   imports: [HelloComponent],
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
+  private demoService = inject(DemoService);
   demoMessage = `Hello from Project-B: ${this.demoService.getMessage()}`;
-
-  constructor(
-    private readonly demoService: DemoService
-  ) { }
 }

@@ -1,0 +1,311 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.8.0",
+  "pathMappings": {
+    "@nx-monorepo-demo/feature-components": [
+      "libs/feature-components/src/index.ts"
+    ],
+    "@nx-monorepo-demo/feature-services": [
+      "libs/feature-services/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "nx.json",
+        "hash": "16100027099147224754"
+      },
+      {
+        "file": "package.json",
+        "hash": "18091546092934467962"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "3395189204293871444"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "README.md",
+        "hash": "10253188978848773944"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "16994738411035095989"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "screencast.gif",
+        "hash": "8797696545912938435"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "18315524891129148814"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "10563370739716084544"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      }
+    ],
+    "projectFileMap": {
+      "project-b": [
+        {
+          "file": "apps/project-b/.eslintrc.json",
+          "hash": "3322449398258820698"
+        },
+        {
+          "file": "apps/project-b/jest.config.ts",
+          "hash": "9168373836977247587"
+        },
+        {
+          "file": "apps/project-b/project.json",
+          "hash": "9759823963003831285"
+        },
+        {
+          "file": "apps/project-b/src/app/app.component.html",
+          "hash": "10711126239247279636"
+        },
+        {
+          "file": "apps/project-b/src/app/app.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/project-b/src/app/app.component.ts",
+          "hash": "5672684546541046852",
+          "deps": [
+            "feature-components",
+            "feature-services"
+          ]
+        },
+        {
+          "file": "apps/project-b/src/app/app.config.ts",
+          "hash": "147342718412294144"
+        },
+        {
+          "file": "apps/project-b/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/project-b/src/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/project-b/src/index.html",
+          "hash": "5796701470630222811"
+        },
+        {
+          "file": "apps/project-b/src/main.ts",
+          "hash": "16635586463787978962"
+        },
+        {
+          "file": "apps/project-b/src/styles.scss",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "apps/project-b/src/test-setup.ts",
+          "hash": "12935735732682149507"
+        },
+        {
+          "file": "apps/project-b/tsconfig.app.json",
+          "hash": "8365644956319658761"
+        },
+        {
+          "file": "apps/project-b/tsconfig.editor.json",
+          "hash": "1055794200401717100"
+        },
+        {
+          "file": "apps/project-b/tsconfig.json",
+          "hash": "14845187541790154013"
+        },
+        {
+          "file": "apps/project-b/tsconfig.spec.json",
+          "hash": "2927375835638640771"
+        }
+      ],
+      "project-a": [
+        {
+          "file": "apps/project-a/.eslintrc.json",
+          "hash": "3322449398258820698"
+        },
+        {
+          "file": "apps/project-a/jest.config.ts",
+          "hash": "10613456234233275786"
+        },
+        {
+          "file": "apps/project-a/project.json",
+          "hash": "7987154248880466218"
+        },
+        {
+          "file": "apps/project-a/src/app/app.component.html",
+          "hash": "10711126239247279636"
+        },
+        {
+          "file": "apps/project-a/src/app/app.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/project-a/src/app/app.component.ts",
+          "hash": "16459436657159842594",
+          "deps": [
+            "feature-components",
+            "feature-services"
+          ]
+        },
+        {
+          "file": "apps/project-a/src/app/app.config.ts",
+          "hash": "147342718412294144"
+        },
+        {
+          "file": "apps/project-a/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/project-a/src/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/project-a/src/index.html",
+          "hash": "9805943953825089159"
+        },
+        {
+          "file": "apps/project-a/src/main.ts",
+          "hash": "16635586463787978962"
+        },
+        {
+          "file": "apps/project-a/src/styles.scss",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "apps/project-a/src/test-setup.ts",
+          "hash": "12935735732682149507"
+        },
+        {
+          "file": "apps/project-a/tsconfig.app.json",
+          "hash": "8365644956319658761"
+        },
+        {
+          "file": "apps/project-a/tsconfig.editor.json",
+          "hash": "1055794200401717100"
+        },
+        {
+          "file": "apps/project-a/tsconfig.json",
+          "hash": "10165753922017812673"
+        },
+        {
+          "file": "apps/project-a/tsconfig.spec.json",
+          "hash": "2927375835638640771"
+        }
+      ],
+      "feature-services": [
+        {
+          "file": "libs/feature-services/.eslintrc.json",
+          "hash": "9628345067573567197"
+        },
+        {
+          "file": "libs/feature-services/README.md",
+          "hash": "8366885143819689059"
+        },
+        {
+          "file": "libs/feature-services/jest.config.ts",
+          "hash": "6071907339605505152"
+        },
+        {
+          "file": "libs/feature-services/project.json",
+          "hash": "13208146825939386295"
+        },
+        {
+          "file": "libs/feature-services/src/index.ts",
+          "hash": "14057917093028571014"
+        },
+        {
+          "file": "libs/feature-services/src/lib/services/demo.service.ts",
+          "hash": "3956450226717014261"
+        },
+        {
+          "file": "libs/feature-services/src/test-setup.ts",
+          "hash": "12935735732682149507"
+        },
+        {
+          "file": "libs/feature-services/tsconfig.json",
+          "hash": "15487755565970508470"
+        },
+        {
+          "file": "libs/feature-services/tsconfig.lib.json",
+          "hash": "5796668385415907511"
+        },
+        {
+          "file": "libs/feature-services/tsconfig.spec.json",
+          "hash": "2927375835638640771"
+        }
+      ],
+      "feature-components": [
+        {
+          "file": "libs/feature-components/.eslintrc.json",
+          "hash": "9628345067573567197"
+        },
+        {
+          "file": "libs/feature-components/README.md",
+          "hash": "13169628173325594540"
+        },
+        {
+          "file": "libs/feature-components/jest.config.ts",
+          "hash": "13163431908890217294"
+        },
+        {
+          "file": "libs/feature-components/project.json",
+          "hash": "17452644600132751990"
+        },
+        {
+          "file": "libs/feature-components/src/index.ts",
+          "hash": "4252985787653429492"
+        },
+        {
+          "file": "libs/feature-components/src/lib/hello/hello.component.html",
+          "hash": "5110283113693497689"
+        },
+        {
+          "file": "libs/feature-components/src/lib/hello/hello.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "libs/feature-components/src/lib/hello/hello.component.ts",
+          "hash": "15287813680336105712"
+        },
+        {
+          "file": "libs/feature-components/src/test-setup.ts",
+          "hash": "12935735732682149507"
+        },
+        {
+          "file": "libs/feature-components/tsconfig.json",
+          "hash": "15487755565970508470"
+        },
+        {
+          "file": "libs/feature-components/tsconfig.lib.json",
+          "hash": "5796668385415907511"
+        },
+        {
+          "file": "libs/feature-components/tsconfig.spec.json",
+          "hash": "2927375835638640771"
+        }
+      ]
+    }
+  }
+}
